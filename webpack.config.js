@@ -3,7 +3,7 @@ const MonacoWebpackPlugin = require('monaco-editor-webpack-plugin');
 module.exports = {
 	entry: './index.js',
 	output: {
-		path: './dist',
+		path: path.resolve(__dirname, './dist'),
 		filename: 'app.js'
 	},
 	module: {
