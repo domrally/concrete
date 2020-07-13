@@ -2,9 +2,10 @@
   "name": "concrete",
   "version": "0.0.0",
   "description": "featherweight brutalist markup",
-  "main": "app.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,12 @@
     "url": "https://github.com/domrally/concrete/issues"
   },
   "homepage": "https://github.com/domrally/concrete#readme",
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
   "dependencies": {
+    "lodash": "^4.17.19",
     "monaco-editor": "^0.20.0"
   }
 }
