@@ -1,0 +1,22 @@
+{
+  "name": "concrete",
+  "version": "0.0.0",
+  "description": "featherweight brutalist markup",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domrally/concrete.git"
+  },
+  "author": "Dom Mandy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/domrally/concrete/issues"
+  },
+  "homepage": "https://github.com/domrally/concrete#readme",
+  "dependencies": {
+    "monaco-editor": "^0.20.0"
+  }
+}
