@@ -1,9 +1,21 @@
 {
-  "name": "helloworld",
+  "name": "concrete",
+  "version": "0.0.2",
+  "description": "featherweight brutalist markup",
   "dependencies": {},
   "scripts": {
     "build": "webpack --progress"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domrally/concrete.git"
+  },
+  "author": "Dom Mandy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/domrally/concrete/issues"
+  },
+  "homepage": "https://github.com/domrally/concrete#readme",
   "devDependencies": {
     "css-loader": "^3.4.0",
     "file-loader": "^5.0.2",
