@@ -1,28 +1,16 @@
 {
-  "name": "concrete",
-  "version": "0.0.2",
-  "description": "featherweight brutalist markup",
-  "main": "./dist/app.js",
+  "name": "helloworld",
+  "dependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack --progress"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/domrally/concrete.git"
-  },
-  "author": "Dom Mandy",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/domrally/concrete/issues"
-  },
-  "homepage": "https://github.com/domrally/concrete#readme",
   "devDependencies": {
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2"
-  },
-  "dependencies": {
-    "monaco-editor": "^0.20.0",
-    "monaco-editor-webpack-plugin": "^1.9.0"
+    "css-loader": "^3.4.0",
+    "file-loader": "^5.0.2",
+    "monaco-editor": "^0.19.0",
+    "style-loader": "^1.1.1",
+    "terser-webpack-plugin": "^2.3.1",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
   }
 }
